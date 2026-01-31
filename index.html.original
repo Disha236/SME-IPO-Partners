@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SME IPO Partners | SME IPO Hand-Holding + P2P Collaboration</title>
+    <meta
+      name="description"
+      content="Partner-to-Partner (P2P) SME IPO hand-holding collaboration: end-to-end IPO execution while partners retain client ownership and share revenue."
+    />
+    <meta name="theme-color" content="#0B1C2D" />
+
+    <!-- Premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-theme="light">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Sticky Navbar -->
+    <header class="nav-wrap" role="banner">
+      <nav class="nav container" aria-label="Primary">
+        <a class="brand" href="#home" aria-label="SME IPO Partners (home)">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">SME IPO Partners</span>
+        </a>
+
+        <div class="nav-actions">
+          <button
+            id="themeToggle"
+            class="icon-btn"
+            type="button"
+            aria-label="Toggle theme"
+            aria-pressed="false"
+            title="Toggle light/dark"
+          >
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M21 12.8A8.5 8.5 0 0 1 11.2 3a7 7 0 1 0 9.8 9.8Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+            <span class="sr-only">Open menu</span>
+            <span class="nav-toggle-bars" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div id="navMenu" class="nav-menu">
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#process">Process</a>
+          <a class="nav-link" href="#why">Why Partner With Us</a>
+          <a class="nav-link" href="#faqs">FAQs</a>
+          <a class="nav-cta" href="#collaborate">Collaborate With Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- Hero (3D / depth background) -->
+      <section id="home" class="hero" aria-label="Hero">
+        <div class="hero-bg" aria-hidden="true">
+          <canvas id="heroCanvas" class="hero-canvas"></canvas>
+          <div class="hero-orb orb-1"></div>
+          <div class="hero-orb orb-2"></div>
+          <div class="hero-gridlines"></div>
+        </div>
+
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="pill reveal-on-load">
+              <span class="pill-dot" aria-hidden="true"></span>
+              <span>Fintech • Capital Markets • Partner-to-Partner</span>
+            </div>
+
+            <h1 class="hero-title reveal-on-load">
+              End-to-End SME IPO Hand-Holding Through Strategic P2P Collaboration
+            </h1>
+            <p class="hero-subtitle reveal-on-load">
+              Helping partners deliver seamless SME IPO solutions without execution risk.
+            </p>
+
+            <div class="hero-actions reveal-on-load">
+              <a class="btn btn-primary" href="#collaborate">Get Started</a>
+              <!-- <a class="btn btn-secondary" href="#about">Explore Partnership</a> -->
+            </div>
+
+            <div class="trust-row reveal-on-load" aria-label="Trust signals">
+              <div class="trust-pill">
+                <span class="dot" aria-hidden="true"></span>
+                High-trust execution model
+              </div>
+              <div class="trust-pill">
+                <span class="dot dot-gold" aria-hidden="true"></span>
+                Partner retains client ownership
+              </div>
+              <div class="trust-pill">
+                <span class="dot dot-teal" aria-hidden="true"></span>
+                Revenue share aligned incentives
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="hero-right reveal-on-load" aria-label="Hero highlights">
+            <div class="glass-stack">
+              <div class="glass-card float" data-float="1">
+                <p class="kpi-label">Conversion advantage</p>
+                <p class="kpi-value">Faster mandates</p>
+                <p class="kpi-sub">Clear process + execution confidence</p>
+              </div>
+              <div class="glass-card float" data-float="2">
+                <p class="kpi-label">Scalable growth</p>
+                <p class="kpi-value">Zero fixed cost</p>
+                <p class="kpi-sub">Execution capacity without hiring</p>
+              </div>
+              <div class="glass-card float" data-float="3">
+                <p class="kpi-label">Credibility</p>
+                <p class="kpi-value">Capital markets posture</p>
+                <p class="kpi-sub">Specialist leadership coverage</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <!-- <a class="scroll-indicator" href="#about" aria-label="Scroll to About">
+          <span class="scroll-dot" aria-hidden="true"></span>
+          <span class="scroll-text">Scroll</span>
+        </a> -->
+      </section>
+
+      <!-- About Us -->
+      <section id="about" class="section section-white">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">About Us</h2>
+            <p class="section-lede reveal">
+              We are an SME IPO hand-holding and execution-focused collaboration firm built for partners—CAs,
+              CSs, consultants, and advisors—who want IPO delivery confidence without building an in-house
+              execution desk.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <article class="about-card reveal">
+              <h3>SME IPO hand-holding expertise</h3>
+              <p>
+                From eligibility to readiness to listing coordination, we drive execution with structure,
+                timelines, and stakeholder alignment.
+              </p>
+            </article>
+            <article class="about-card reveal">
+              <h3>Partner-to-Partner collaboration model</h3>
+              <p>
+                You retain client ownership; we complement your strengths with specialist execution and a
+                governance-first approach.
+              </p>
+            </article>
+            <article class="about-card reveal">
+              <h3>Credibility that converts</h3>
+              <p>
+                A premium capital-markets posture that helps your SME clients commit faster—because the “how”
+                is clear.
+              </p>
+            </article>
+          </div>
+
+          <div class="timeline reveal" aria-label="Partnership timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div>
+                <p class="timeline-title">Partner alignment</p>
+                <p class="timeline-desc">Define scope, responsibilities, and commercials.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div>
+                <p class="timeline-title">Readiness framework</p>
+                <p class="timeline-desc">Financial clean-up + documentation workstreams.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div>
+                <p class="timeline-title">Execution & closure</p>
+                <p class="timeline-desc">Coordination through listing and post-IPO advisory.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services" class="section section-white">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">Services</h2>
+            <p class="section-lede reveal">
+              A structured, end-to-end SME IPO execution stack, visualised as the journey your client
+              experiences from first conversation to life as a listed company.
+            </p>
+          </div>
+
+          <div class="services-flow">
+            <div class="services-rail" aria-hidden="true"></div>
+
+            <article class="service-row reveal-stagger">
+              <div class="service-tag">
+                <span class="service-index">01</span>
+                <span class="service-label">Eligibility</span>
+              </div>
+              <div class="service-body">
+                <h3>SME IPO Eligibility Assessment</h3>
+                <p>Assess eligibility, listing readiness, and define a practical, time-bound gap-closure plan.</p>
+                <ul class="service-points">
+                  <li>Regulation- and exchange-aligned basic checks</li>
+                  <li>Promoter objectives vs. listing feasibility</li>
+                  <li>Early visibility into constraints and mitigations</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service-row reveal-stagger">
+              <div class="service-tag">
+                <span class="service-index">02</span>
+                <span class="service-label">Readiness</span>
+              </div>
+              <div class="service-body">
+                <h3>IPO Readiness & Financial Clean-Up</h3>
+                <p>Strengthen reporting quality, hygiene, and documentation alignment before merchant banker deep-dive.</p>
+                <ul class="service-points">
+                  <li>Historical financials review and normalisation</li>
+                  <li>Governance, controls, and disclosure clean-up</li>
+                  <li>Aligning narratives with financial reality</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service-row reveal-stagger">
+              <div class="service-tag">
+                <span class="service-index">03</span>
+                <span class="service-label">Coordination</span>
+              </div>
+              <div class="service-body">
+                <h3>Coordination with Stakeholders</h3>
+                <p>Merchant bankers, auditors, and legal advisors aligned under a single, governed execution rhythm.</p>
+                <ul class="service-points">
+                  <li>Integrated work-plan across all intermediaries</li>
+                  <li>Single source of truth for status and dependencies</li>
+                  <li>Partner visibility on every critical decision</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service-row reveal-stagger">
+              <div class="service-tag">
+                <span class="service-index">04</span>
+                <span class="service-label">Execution</span>
+              </div>
+              <div class="service-body">
+                <h3>End-to-End IPO Hand-Holding</h3>
+                <p>Milestone-driven execution with transparent governance and promotor hand-holding.</p>
+                <ul class="service-points">
+                  <li>Trackable milestones from mandate to listing</li>
+                  <li>Partner-in-the-loop communication for every phase</li>
+                  <li>Issue resolution and escalation paths defined upfront</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service-row reveal-stagger">
+              <div class="service-tag">
+                <span class="service-index">05</span>
+                <span class="service-label">Post-Listing</span>
+              </div>
+              <div class="service-body">
+                <h3>Post-Listing Compliance Support</h3>
+                <p>Ongoing support to sustain trust, retention, and structured cross-sell opportunities.</p>
+                <ul class="service-points">
+                  <li>Calendarised compliance and disclosure guidance</li>
+                  <li>Support for board, audit, and investor communication</li>
+                  <li>Partner avenues for recurring advisory mandates</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- How We Work -->
+      <section id="process" class="section section-navy">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">How We Work</h2>
+            <p class="section-lede reveal">
+              A partner-friendly workflow built for speed, quality, and predictable delivery.
+            </p>
+          </div>
+
+          <div class="process-timeline" aria-label="Process steps">
+            <div class="process-timeline-line" aria-hidden="true"></div>
+
+            <div class="process-timeline-steps">
+              <article class="process-timeline-item step-left reveal-stagger">
+                <div class="step-dot" aria-hidden="true"></div>
+                <div class="step-card">
+                  <div class="step-icon" aria-hidden="true">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15l2 2 4-4"/></svg>
+                  </div>
+                  <div class="step-body">
+                    <p class="step-kicker">Step 01</p>
+                    <h3>Partner Onboarding</h3>
+                    <p class="step-desc">Define how we work together before we speak to clients. Scope, responsibilities, and escalation mapped; commercials and revenue-share principles aligned; communication cadence and governance agreed.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="process-timeline-item step-right reveal-stagger">
+                <div class="step-dot" aria-hidden="true"></div>
+                <div class="step-card">
+                  <div class="step-icon" aria-hidden="true">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                  </div>
+                  <div class="step-body">
+                    <p class="step-kicker">Step 02</p>
+                    <h3>Client Identification</h3>
+                    <p class="step-desc">Filter and prioritise SME clients most suited for IPO conversations. Eligibility and appetite indicators aligned with you; joint narrative and positioning for each client type; next-step map for outreach and education.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="process-timeline-item step-left reveal-stagger">
+                <div class="step-dot" aria-hidden="true"></div>
+                <div class="step-card">
+                  <div class="step-icon" aria-hidden="true">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18 9V3"/><path d="M18 15v-3"/><path d="M18 21v-3"/><path d="M12 9V3"/><path d="M12 15v-3"/><path d="M12 21v-3"/><path d="M6 9V3"/><path d="M6 15v-3"/><path d="M6 21v-3"/></svg>
+                  </div>
+                  <div class="step-body">
+                    <p class="step-kicker">Step 03</p>
+                    <h3>IPO Readiness Framework</h3>
+                    <p class="step-desc">Convert intent into concrete workstreams and realistic timelines. Financial, legal, and governance workstreams defined; milestone plan visible to both you and the client; early risk identification and mitigation strategies.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="process-timeline-item step-right reveal-stagger">
+                <div class="step-dot" aria-hidden="true"></div>
+                <div class="step-card">
+                  <div class="step-icon" aria-hidden="true">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                  </div>
+                  <div class="step-body">
+                    <p class="step-kicker">Step 04</p>
+                    <h3>Execution & Coordination</h3>
+                    <p class="step-desc">Merchant bankers, auditors, and legal teams run in sync. Single integrated plan for all intermediaries; structured updates to you and your client; issue tracking and resolution across stakeholders.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="process-timeline-item step-left reveal-stagger">
+                <div class="step-dot" aria-hidden="true"></div>
+                <div class="step-card">
+                  <div class="step-icon" aria-hidden="true">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg>
+                  </div>
+                  <div class="step-body">
+                    <p class="step-kicker">Step 05</p>
+                    <h3>Listing & Post-IPO Advisory</h3>
+                    <p class="step-desc">Close the loop with listing support and long-term retention. Support through listing events and disclosures; post-IPO compliance and board engagement rhythm; joint roadmap for ongoing advisory and cross-sell.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Partner With Us -->
+      <section id="why" class="section section-white">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">Why Partner With Us</h2>
+            <p class="section-lede reveal">
+              Built to help you win and retain SME clients—without taking execution risk onto your team.
+            </p>
+          </div>
+
+          <div class="why-layout">
+            <div class="why-column reveal">
+              <h3 class="why-heading">What you gain</h3>
+              <ol class="why-list">
+                <li>
+                  <strong>End-to-end IPO expertise</strong>
+                  <span>Specialist execution across the full journey, embedded into your practice.</span>
+                </li>
+                <li>
+                  <strong>Revenue participation without execution risk</strong>
+                  <span>You retain client ownership and relationship; we carry execution responsibility.</span>
+                </li>
+                <li>
+                  <strong>Faster client conversion</strong>
+                  <span>Clear, de-risked path that helps SME promoters move from “thinking” to “doing”.</span>
+                </li>
+              </ol>
+            </div>
+
+            <div class="why-column reveal">
+              <h3 class="why-heading">For you & your clients</h3>
+              <div class="why-strips">
+                <div class="why-strip">
+                  <span class="why-pill">You</span>
+                  <p>Scalable IPO offering, upgraded market credibility, and zero fixed-cost build-out.</p>
+                </div>
+                <div class="why-strip">
+                  <span class="why-pill">Your clients</span>
+                  <p>Hand-holding through complex capital markets work with clear accountability.</p>
+                </div>
+                <div class="why-strip">
+                  <span class="why-pill">Your firm</span>
+                  <p>
+                    Long-term retention and cross-sell opportunities across audit, tax, and advisory post listing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="trust-band reveal" aria-label="Trust badges">
+            <div class="trust-badge">Compliance-first execution</div>
+            <div class="trust-badge">Partner governance</div>
+            <div class="trust-badge">Capital markets expertise</div>
+            <div class="trust-badge">Secure lead handling</div>
+          </div>
+
+          <div class="counters reveal" aria-label="Animated counters">
+            <div class="counter">
+              <p class="counter-value" data-count-to="5">0</p>
+              <p class="counter-label">Core execution workstreams</p>
+            </div>
+            <div class="counter">
+              <p class="counter-value" data-count-to="0">0</p>
+              <p class="counter-label">Fixed-cost hiring required</p>
+            </div>
+            <div class="counter">
+              <p class="counter-value" data-count-to="100">0</p>
+              <p class="counter-label">Partner-aligned communication</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- (Legacy sections replaced by Services/Process/Why Partner) -->
+
+      <!-- Team -->
+      <section id="team" class="section section-white">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">Team & leadership</h2>
+            <p class="section-lede reveal">
+              A specialized leadership group spanning IPO strategy, law, valuation, and audit.
+            </p>
+          </div>
+
+          <div class="team-grid">
+            <article class="team-card reveal-team">
+              <div class="avatar" aria-hidden="true">AJ</div>
+              <div>
+                <h3>CS Ashish Jain</h3>
+                <p class="role">IPO & Funding Strategist</p>
+                <p class="bio">
+                  Strategy-led execution support focused on readiness, positioning, and end-to-end delivery.
+                </p>
+              </div>
+            </article>
+
+            <article class="team-card reveal-team">
+              <div class="avatar" aria-hidden="true">NS</div>
+              <div>
+                <h3>CS Naresh Kumar Sharma</h3>
+                <p class="role">Corporate & Capital Markets Law</p>
+                <p class="bio">
+                  Corporate structuring and capital market legal guidance to reduce risk and increase speed.
+                </p>
+              </div>
+            </article>
+
+            <article class="team-card reveal-team">
+              <div class="avatar" aria-hidden="true">V</div>
+              <div>
+                <h3>CA Vipul</h3>
+                <p class="role">Valuation & Merchant Banking</p>
+                <p class="bio">
+                  Valuation, documentation alignment, and merchant banking coordination for smooth execution.
+                </p>
+              </div>
+            </article>
+
+            <article class="team-card reveal-team">
+              <div class="avatar" aria-hidden="true">DG</div>
+              <div>
+                <h3>CA Dhruv Goyal</h3>
+                <p class="role">Audit, Tax & SME IPO Advisory</p>
+                <p class="bio">
+                  Audit and tax advisory for SME IPO readiness, reporting quality, and compliance confidence.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs -->
+      <section id="faqs" class="section section-white">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title reveal">Frequently Asked Questions</h2>
+            <p class="section-lede reveal">Quick answers for professional advisors evaluating partnership.</p>
+          </div>
+
+          <div class="faq" data-accordion>
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                Who can partner with us?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a" hidden>
+                <p>
+                  CAs, CSs, consultants, advisors, and firms supporting SME promoters who want a reliable IPO
+                  execution partner.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                Is there any regulatory risk?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a" hidden>
+                <p>
+                  We operate with compliance-first execution and clear governance boundaries. Final engagement
+                  structure should be reviewed for fit and disclosures.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                How does revenue sharing work?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a" hidden>
+                <p>
+                  Commercials are aligned to scope and partner contribution. The partner retains client
+                  ownership; the execution team participates in revenue for delivery.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item reveal">
+              <button class="faq-q" type="button" aria-expanded="false">
+                What post-IPO support is provided?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a" hidden>
+                <p>
+                  Post-listing compliance support and advisory to help ensure continuity, retention, and
+                  cross-selling opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- High-conversion CTA + secure form -->
+      <section id="collaborate" class="section section-warning" aria-labelledby="ctaTitle">
+        <div class="container cta-2">
+          <div class="cta2-left reveal-left">
+            <h2 id="ctaTitle" class="section-title">SME IPO activity is accelerating</h2>
+            <p class="section-lede">
+              Promoters prefer advisors who can hand-hold the entire journey. Partner with an execution-led
+              team and convert faster—without execution risk.
+            </p>
+            <div class="cta2-actions">
+              <a class="btn btn-primary btn-lg" href="#leadForm">Partner With Us Now</a>
+              <a class="btn btn-secondary btn-lg" href="#leadForm">Request a Call</a>
+            </div>
+            <p class="mini-disclaimer">
+              Secure submission. No data exposed publicly. We validate inputs and rate-limit requests.
+            </p>
+          </div>
+
+          <div class="cta2-right reveal-left">
+            <form id="leadForm" class="lead-form" novalidate>
+              <div class="form-head">
+                <p class="form-title">Collaborate With Us</p>
+                <p class="form-sub">Share your details. We’ll respond promptly.</p>
+              </div>
+
+              <div class="form-grid">
+                <label class="field">
+                  <span>Name</span>
+                  <input name="name" autocomplete="name" required minlength="2" placeholder="Your full name" />
+                  <span class="field-err" data-err-for="name" aria-live="polite"></span>
+                </label>
+                <label class="field">
+                  <span>Firm Name</span>
+                  <input name="firm" autocomplete="organization" required minlength="2" placeholder="Your firm" />
+                  <span class="field-err" data-err-for="firm" aria-live="polite"></span>
+                </label>
+                <label class="field">
+                  <span>Email</span>
+                  <input name="email" autocomplete="email" required type="email" placeholder="you@firm.com" />
+                  <span class="field-err" data-err-for="email" aria-live="polite"></span>
+                </label>
+                <label class="field">
+                  <span>Phone</span>
+                  <input name="phone" autocomplete="tel" required inputmode="tel" placeholder="+91 9xxxx xxxxx" />
+                  <span class="field-err" data-err-for="phone" aria-live="polite"></span>
+                </label>
+                <label class="field field-full">
+                  <span>Partner Type</span>
+                  <select name="partnerType" required>
+                    <option value="" selected disabled>Select…</option>
+                    <option value="ca">CA</option>
+                    <option value="cs">CS</option>
+                    <option value="consultant">Consultant</option>
+                    <option value="advisor">Advisor</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <span class="field-err" data-err-for="partnerType" aria-live="polite"></span>
+                </label>
+                <label class="field field-full">
+                  <span>Message</span>
+                  <textarea
+                    name="message"
+                    required
+                    minlength="20"
+                    placeholder="Tell us about your client profile and what support you need."
+                  ></textarea>
+                  <span class="field-err" data-err-for="message" aria-live="polite"></span>
+                </label>
+
+                <!-- Honeypot (bot trap) -->
+                <label class="hp" aria-hidden="true">
+                  <span>Website</span>
+                  <input name="website" tabindex="-1" autocomplete="off" />
+                </label>
+              </div>
+
+              <button class="btn btn-primary btn-lg form-submit" type="submit">
+                <span class="btn-label">Submit securely</span>
+                <span class="btn-spinner" aria-hidden="true"></span>
+              </button>
+
+              <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+              <p class="form-privacy">
+                By submitting, you agree to be contacted about this inquiry. We do not sell your data.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button id="scrollTop" class="scroll-top" type="button" aria-label="Scroll to top">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M12 5 4.5 12.5l1.6 1.6L11 9.2V19h2V9.2l4.9 4.9 1.6-1.6L12 5Z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-grid">
+          <div class="footer-brand-block">
+            <p class="footer-brand">SME IPO Partners</p>
+            <p class="footer-desc">
+              Building a premium SME IPO hand-holding and partner-to-partner collaboration layer for professional
+              advisors.
+            </p>
+            <p class="footer-location">Faridabad, Haryana, India</p>
+            <div class="footer-socials" aria-label="Social profiles">
+              <a class="footer-social-link" href="#" aria-label="Follow on X (Twitter)">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M16.98 3.5h3.01l-6.58 7.52 7.75 9.48H16.5l-4.82-5.98-5.52 5.98H3.14l7.03-7.62L2.75 3.5h4.33l4.34 5.38 5.56-5.38Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+              <a class="footer-social-link" href="#" aria-label="Visit on Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5" ry="5" fill="none" stroke="currentColor" />
+                  <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" />
+                  <circle cx="17" cy="7" r="1" fill="currentColor" />
+                </svg>
+              </a>
+              <a class="footer-social-link" href="#" aria-label="Connect on LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M6.5 6a2 2 0 1 1-4 0a2 2 0 0 1 4 0ZM3 9h3v12H3V9Zm6 0h3v1.7h.1A3.3 3.3 0 0 1 15 9c3 0 3.6 2 3.6 4.6V21H15v-6.2c0-1.5 0-3.4-2-3.4s-2.3 1.6-2.3 3.3V21H9V9Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+              <a class="footer-social-link" href="#" aria-label="View GitHub profile">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2C6.5 2 2 6.6 2 12.2c0 4.5 2.9 8.3 6.9 9.6.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.4 1 1.4 1 .8 1.4 2.1 1 2.6.8.1-.6.3-1 .6-1.2-2.2-.3-4.5-1.2-4.5-5.2 0-1.1.4-1.9 1-2.6-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9 9 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.6 0 4-2.3 4.9-4.5 5.2.3.3.6.9.6 1.8v2.6c0 .3.2.6.7.5a10.4 10.4 0 0 0 6.9-9.6C22 6.6 17.5 2 12 2Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div>
+            <p class="footer-h">Quick Links</p>
+            <a class="footer-link" href="#about">About</a>
+            <a class="footer-link" href="#team">Team</a>
+            <a class="footer-link" href="#faqs">FAQs</a>
+            <a class="footer-link" href="#collaborate">Contact</a>
+          </div>
+          <div>
+            <p class="footer-h">Services</p>
+            <a class="footer-link" href="#services">Eligibility & Readiness</a>
+            <a class="footer-link" href="#services">Stakeholder Coordination</a>
+            <a class="footer-link" href="#process">Execution Rhythm</a>
+            <a class="footer-link" href="#services">Post-Listing Support</a>
+          </div>
+          <div>
+            <p class="footer-h">Legal</p>
+            <a class="footer-link" href="#">Privacy</a>
+            <a class="footer-link" href="#">Terms</a>
+            <a class="footer-link" href="#">Security</a>
+          </div>
+        </div>
+        <div class="footer-copy">
+          <p>© <span id="year"></span> SME IPO Partners. All rights reserved.</p>
+          <p>Powered by <a href="https://www.smeipo.com" target="_blank">SME IPO Partners</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- GSAP (preferred) -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
